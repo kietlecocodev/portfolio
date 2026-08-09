@@ -7,7 +7,7 @@ export default function Contact() {
       <span className="text-xs uppercase tracking-[0.25em] text-accent">
         Let&apos;s work together
       </span>
-      <h2 className="mx-auto mt-6 max-w-2xl text-balance font-display text-3xl italic leading-snug sm:text-5xl">
+      <h2 className="mx-auto mt-6 max-w-2xl text-balance font-display text-2xl italic leading-snug sm:text-5xl">
         Got an idea for your brand?
         <br />
         I&apos;d love to hear it.

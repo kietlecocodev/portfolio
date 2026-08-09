@@ -23,11 +23,6 @@ export default function Hero() {
         <h1 className="mt-8 max-w-3xl font-display text-4xl italic leading-tight text-balance text-foreground sm:text-6xl">
           Where Flavor Meets Frame
         </h1>
-        <p className="mt-6 max-w-xl text-balance text-sm leading-relaxed text-muted sm:text-base">
-          I&apos;m 5 Phút Cà Phê. I shoot and film coffee, brewing, and drinks
-          in a warm, cinematic style. If your brand wants its story told one
-          frame at a time, let&apos;s make something together.
-        </p>
         <a
           href="#work"
           className="mt-10 rounded-full border border-accent/60 px-6 py-3 text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background"

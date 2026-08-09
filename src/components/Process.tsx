@@ -4,7 +4,7 @@ export default function Process() {
   return (
     <section id="process" className="mx-auto max-w-6xl px-6 py-24 sm:px-10 sm:py-32">
       <span className="text-xs uppercase tracking-[0.25em] text-accent">
-        Behind the Scenes
+        Hậu trường
       </span>
       <h2 className="mt-4 max-w-lg font-display text-3xl italic leading-snug text-balance sm:text-4xl">
         Setup gọn, ánh sáng kỹ, đúng deadline

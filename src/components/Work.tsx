@@ -18,15 +18,16 @@ export default function Work() {
         <div className="mb-16 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-accent">
-              Featured Work
+              Tác phẩm
             </span>
             <h2 className="mt-4 font-display text-3xl italic sm:text-4xl">
               Một vài khung hình gần đây
             </h2>
           </div>
           <p className="max-w-xs text-sm text-muted">
-            Ảnh macro &amp; sản phẩm cho các buổi shoot đồ uống — sẵn sàng
-            mở rộng thành bộ ảnh đầy đủ theo brief của brand.
+            Ảnh macro và sản phẩm từ các buổi quay của 5 Phút Cà Phê, có thể
+            mở rộng thành bộ ảnh đầy đủ theo brief riêng của từng thương
+            hiệu.
           </p>
         </div>
 

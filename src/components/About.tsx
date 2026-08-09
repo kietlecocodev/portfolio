@@ -1,8 +1,8 @@
 const SPECIALTIES = [
-  "Product & drink macro",
-  "Cinematic B-roll",
-  "Ingredient storytelling",
-  "Behind-the-scenes",
+  "Chụp ảnh đồ uống",
+  "Quay video pha chế",
+  "Kể chuyện nguyên liệu",
+  "Hậu trường sản xuất",
 ];
 
 export default function About() {
@@ -14,16 +14,17 @@ export default function About() {
             Về mình
           </span>
           <h2 className="mt-6 font-display text-3xl italic leading-snug text-balance sm:text-4xl">
-            Kể chuyện đồ uống bằng ánh sáng &amp; chi tiết
+            Từ một tách cà phê đến một cơ duyên
           </h2>
         </div>
         <div className="flex flex-col gap-8">
           <p className="text-balance leading-relaxed text-muted">
-            Mình là content creator tập trung vào nhiếp ảnh &amp; quay dựng đồ
-            uống — từ cà phê phin truyền thống đến specialty coffee. Mỗi
-            khung hình được dựng theo tông màu ấm, ánh sáng dịu và góc cận
-            cảnh để làm nổi bật kết cấu, hơi nóng và cảm xúc của từng ly đồ
-            uống.
+            Mình bắt đầu chỉ là một người bình thường yêu thích cà phê và pha
+            chế. Việc trở thành người sáng tạo nội dung về hai thứ này, với
+            mình, là một cơ duyên. Hiện tại mình đang muốn lấn sân thêm sang
+            mảng sản xuất video về pha chế và đồ uống, để giúp mọi người vừa
+            có một ly đồ uống ngon miệng, vừa ngon mắt, và mang lại nhiều
+            cảm xúc cho người xem.
           </p>
           <ul className="grid grid-cols-2 gap-4 text-sm text-foreground">
             {SPECIALTIES.map((item) => (

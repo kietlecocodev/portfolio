@@ -13,7 +13,7 @@ export default function Header() {
           href="#top"
           className="font-display text-lg tracking-wide text-foreground"
         >
-          Kiet Le
+          5 Phút Cà Phê
         </a>
         <nav className="hidden gap-8 text-sm tracking-wide text-muted sm:flex">
           {NAV_LINKS.map((link) => (

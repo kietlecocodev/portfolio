@@ -1,5 +1,6 @@
 const NAV_LINKS = [
   { href: "#work", label: "Work" },
+  { href: "#reel", label: "Video" },
   { href: "#about", label: "About" },
   { href: "#process", label: "Process" },
   { href: "#contact", label: "Contact" },

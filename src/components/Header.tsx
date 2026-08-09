@@ -31,7 +31,7 @@ export default function Header() {
           href="#contact"
           className="rounded-full border border-line px-4 py-2 text-xs tracking-wide text-foreground transition-colors hover:border-accent hover:text-accent"
         >
-          Hợp tác
+          Let&apos;s talk
         </a>
       </div>
     </header>

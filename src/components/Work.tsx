@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const WORKS = [
-  { src: "/images/work-05.jpg", alt: "Cà phê sữa đá, kem foam và đá viên chụp cận cảnh" },
-  { src: "/images/work-01.jpg", alt: "Ly cà phê đá với viên đá vuông, tông màu ấm" },
-  { src: "/images/work-06.jpg", alt: "Viên nén cà phê Việt Nam trên bàn gỗ" },
-  { src: "/images/work-03.jpg", alt: "Rót sữa từ bình thủy tinh, góc quay từ trên xuống" },
-  { src: "/images/work-04.jpg", alt: "Bình pha cà phê inox với bọt cà phê" },
-  { src: "/images/work-02.jpg", alt: "Ly cà phê đá quay cận cảnh với thiết bị máy quay phía sau" },
-  { src: "/images/work-07.jpg", alt: "Cold brew với lát chanh trang trí" },
-  { src: "/images/work-08.jpg", alt: "Hộp kem whipping và nguyên liệu pha chế" },
+  { src: "/images/work-05.jpg", alt: "Close-up of iced coffee with foam and a large ice cube" },
+  { src: "/images/work-01.jpg", alt: "Iced coffee glass with a square ice cube, warm tones" },
+  { src: "/images/work-06.jpg", alt: "Vietnamese coffee pod on a wooden table" },
+  { src: "/images/work-03.jpg", alt: "Milk pouring from a glass pitcher, shot from above" },
+  { src: "/images/work-04.jpg", alt: "Steel pitcher with coffee foam" },
+  { src: "/images/work-02.jpg", alt: "Iced coffee close-up with camera gear in the background" },
+  { src: "/images/work-07.jpg", alt: "Cold brew garnished with a lemon slice" },
+  { src: "/images/work-08.jpg", alt: "Whipping cream carton and brewing ingredients" },
 ];
 
 export default function Work() {
@@ -18,16 +18,15 @@ export default function Work() {
         <div className="mb-16 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-accent">
-              Tác phẩm
+              The Work
             </span>
             <h2 className="mt-4 font-display text-3xl italic sm:text-4xl">
-              Một vài khung hình gần đây
+              A few recent frames
             </h2>
           </div>
           <p className="max-w-xs text-sm text-muted">
-            Ảnh macro và sản phẩm từ các buổi quay của 5 Phút Cà Phê, có thể
-            mở rộng thành bộ ảnh đầy đủ theo brief riêng của từng thương
-            hiệu.
+            Macro and product shots from recent shoots. I&apos;m always happy
+            to build out a full set around your brand&apos;s brief.
           </p>
         </div>
 

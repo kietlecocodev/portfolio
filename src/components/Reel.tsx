@@ -1,9 +1,9 @@
 const CLIPS = [
-  { src: "/videos/reel-01.mp4", poster: "/images/reel-01-poster.jpg", alt: "Rót cà phê sữa lên đá viên" },
-  { src: "/videos/reel-02.mp4", poster: "/images/reel-02-poster.jpg", alt: "Rót cà phê lên dừa nạo và đá" },
-  { src: "/videos/reel-03.mp4", poster: "/images/reel-03-poster.jpg", alt: "Đổ shot espresso vào ly" },
-  { src: "/videos/reel-04.mp4", poster: "/images/reel-04-poster.jpg", alt: "Rót cà phê lên kem tươi trong ly" },
-  { src: "/videos/reel-05.mp4", poster: "/images/reel-05-poster.jpg", alt: "Rắc nguyên liệu vào ly pha chế" },
+  { src: "/videos/reel-01.mp4", poster: "/images/reel-01-poster.jpg", alt: "Pouring milk coffee over ice" },
+  { src: "/videos/reel-02.mp4", poster: "/images/reel-02-poster.jpg", alt: "Pouring coffee over shredded coconut and ice" },
+  { src: "/videos/reel-03.mp4", poster: "/images/reel-03-poster.jpg", alt: "Pouring an espresso shot into a glass" },
+  { src: "/videos/reel-04.mp4", poster: "/images/reel-04-poster.jpg", alt: "Pouring coffee over whipped cream in a glass" },
+  { src: "/videos/reel-05.mp4", poster: "/images/reel-05-poster.jpg", alt: "Sprinkling ingredients into a glass" },
 ];
 
 export default function Reel() {
@@ -15,7 +15,7 @@ export default function Reel() {
             Showreel
           </span>
           <h2 className="mt-4 max-w-lg font-display text-3xl italic leading-snug text-balance sm:text-4xl">
-            Vài khoảnh khắc pha chế quay chậm
+            A few brewing moments, slowed down
           </h2>
         </div>
       </div>

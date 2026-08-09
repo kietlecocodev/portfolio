@@ -15,15 +15,15 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "5 Phút Cà Phê | Nội dung Cà Phê & Đồ Uống",
+  title: "5 Phút Cà Phê | Coffee & Drink Content",
   description:
-    "Nội dung ảnh và video về cà phê, pha chế và đồ uống. Portfolio hợp tác cùng các thương hiệu F&B.",
+    "Photo and video content about coffee, brewing, and drinks. Portfolio for brand collaborations.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="vi"
+      lang="en"
       className={`${beVietnamPro.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">

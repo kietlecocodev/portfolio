@@ -1,3 +1,5 @@
+import LazyVideo from "./LazyVideo";
+
 const CLIPS = [
   { src: "/videos/reel-01.mp4", poster: "/images/reel-01-poster.jpg", alt: "Pouring milk coffee over ice" },
   { src: "/videos/reel-02.mp4", poster: "/images/reel-02-poster.jpg", alt: "Pouring coffee over shredded coconut and ice" },
@@ -26,16 +28,11 @@ export default function Reel() {
             key={clip.src}
             className="relative aspect-[2/3] w-[62vw] flex-none overflow-hidden sm:w-[280px]"
           >
-            <video
+            <LazyVideo
               className="h-full w-full object-cover"
               src={clip.src}
               poster={clip.poster}
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="metadata"
-              aria-label={clip.alt}
+              alt={clip.alt}
             />
           </div>
         ))}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { blurDataMap } from "@/lib/blur-data";
 
 export default function Hero() {
   return (
@@ -13,6 +14,8 @@ export default function Hero() {
         priority
         className="object-cover"
         sizes="100vw"
+        placeholder="blur"
+        blurDataURL={blurDataMap["/images/hero.jpg"]}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80" />
 

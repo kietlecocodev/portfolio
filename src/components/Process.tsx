@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { blurDataMap } from "@/lib/blur-data";
 
 export default function Process() {
   return (
@@ -17,6 +18,9 @@ export default function Process() {
             alt="Corner of the shooting table with lights, candles, and brewing tools"
             fill
             sizes="(max-width: 640px) 100vw, 50vw"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={blurDataMap["/images/bts-01.jpg"]}
             className="object-cover"
           />
         </div>
@@ -26,6 +30,9 @@ export default function Process() {
             alt="Gimbal camera close-up while shooting B-roll"
             fill
             sizes="(max-width: 640px) 100vw, 50vw"
+            loading="lazy"
+            placeholder="blur"
+            blurDataURL={blurDataMap["/images/bts-02.jpg"]}
             className="object-cover"
           />
         </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { blurDataMap } from "@/lib/blur-data";
 
 const WORKS = [
   { src: "/images/work-05.jpg", alt: "Close-up of iced coffee with foam and a large ice cube" },
@@ -41,6 +42,9 @@ export default function Work() {
                 alt={item.alt}
                 fill
                 sizes="(max-width: 640px) 50vw, 25vw"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={blurDataMap[item.src]}
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />

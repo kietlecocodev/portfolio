@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://5mincoffee.io.vn/sitemap.xml",
+    sitemap: "https://www.5mincoffee.io.vn/sitemap.xml",
   };
 }

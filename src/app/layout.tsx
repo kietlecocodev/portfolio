@@ -14,7 +14,7 @@ const playfairDisplay = Playfair_Display({
   style: ["normal", "italic"],
 });
 
-const siteUrl = "https://5mincoffee.io.vn";
+const siteUrl = "https://www.5mincoffee.io.vn";
 const siteName = "5 Phút Cà Phê";
 const description =
   "Photo and video content about coffee, brewing, and drinks. Portfolio for brand collaborations.";
